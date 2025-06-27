@@ -1,9 +1,14 @@
-
+import Chai from './Chai';
 
 function App() {
   return (
-    <h1>Coffee and react</h1>
+    <>
+      <Chai/>
+      
+    </>
   );
 }
 
 export default App;
+
+// file name react mai chahe .js se saved ho ya .jsx se, ye dono mai run karta hai

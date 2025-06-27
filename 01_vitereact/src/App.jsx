@@ -1,10 +1,17 @@
-
+import Chai from "./chai"
 
 function App() {
+  const userName = `with priyansh`
   
 
   return (
-    <h1>Coffee and react with vite | Priyansh</h1>
+
+    /* this is called a fragment*/
+    <>
+    <Chai/>
+    <h1>coffee and react {userName}</h1>
+    <p>test para</p>
+    </>
   )
 }
 
